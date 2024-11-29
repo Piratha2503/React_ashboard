@@ -1,0 +1,54 @@
+/* Side Bar*/
+
+.SidebarMainDiv{
+    @apply md:w-1/6 mob:w-1/2 md:h-screen mob:h-screen bg-[#1c273c] text-white px-3 
+    flex flex-col mob:absolute mob:left-[-300px]
+}
+.SidebarHeadingDiv{
+    @apply h-24 text-center content-center
+}
+.SidebarHeading{
+    @apply text-3xl font-bold text-[#a6a6a6]
+}
+.SidebarMenuButtons{
+    @apply flex items-center justify-between 
+    w-full px-4 py-2 rounded hover:bg-gray-700 text-[#a6a6a6]
+    hover:text-white focus:outline-none text-base font-medium
+}
+
+/* Top Bar*/
+
+.MainNavBar{
+    @apply bg-slate-100 border-gray-200 border-2 shadow-xl
+}
+
+.AvatarButton{
+    @apply inline-flex md:hidden items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg mob:block
+    hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400
+    dark:hover:bg-gray-700 dark:focus:ring-gray-600
+}
+.AvatarButtonLinks{
+    @apply block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white
+}
+.MainNavBarSubDiv{
+    @apply flex flex-wrap items-center justify-between mx-auto p-3
+}
+.logoLink{
+    @apply flex items-center space-x-3
+}
+.logoTitle{
+    @apply self-center text-2xl font-semibold whitespace-nowrap text-[#a6a6a6]
+}
+.DropdownDiv{
+    @apply absolute z-10 right-1 my-4 text-base list-none bg-slate-600 divide-y
+    divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600 w-40
+}
+.AvatarButtonDropdown{
+    @apply flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 
+    focus:ring-gray-300 dark:focus:ring-gray-600
+}
+.TopbarButtons{
+    @apply flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse
+}
+
+

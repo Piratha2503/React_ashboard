@@ -1,0 +1,31 @@
+.FrontPageContentMainDiv{
+    @apply p-3 mob:p-1 mob:h-screen flex flex-col items-center
+}
+.FrontPageContentSummaryDiv{
+    @apply w-full p-2 flex justify-between mob:flex-wrap mob:p-1 gap-y-3
+}
+.SummaryButton{
+    @apply border-2 md:w-1/5 mob:w-1/2 h-24 mob:h-20 bg-white flex justify-between
+    shadow-md p-2
+}
+.SummaryDiv{
+    @apply w-1/3 h-full p-1 flex flex-col justify-center text-center
+}
+.SummaryButtonTitle{
+    @apply h-full w-2/3 flex flex-col justify-center text-center
+}
+.SummaryDiv > h2{
+    @apply text-2xl font-bold text-white
+}
+#one{
+    @apply bg-[#444da1]
+}
+#two{
+    @apply bg-[#2ea224]
+}
+#three{
+    @apply bg-[#f8af19]
+}
+#four{
+    @apply bg-[#e75253]
+}

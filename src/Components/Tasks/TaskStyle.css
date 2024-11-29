@@ -1,0 +1,6 @@
+.taskKey{
+    @apply text-xl font-semibold
+}
+.taskValue{
+    @apply text-lg font-semibold text-blue-700
+}
